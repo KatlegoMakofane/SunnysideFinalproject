@@ -1,0 +1,637 @@
+ *
+  {
+
+       margin:0;
+       padding:0;
+       box-sizing:border-box;
+       font-family:'poppins',sans-serif;
+
+  }
+#headerTable {
+    
+    width: 100%;
+    height: 100%;
+}
+.logo {
+       margin-left: 16px;
+       font-size :30px;
+       color: white;
+       
+       align:left;
+
+}
+main {
+    
+}
+nav {
+    margin-right: 16px;
+}
+a {
+    margin-right: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+}
+#mainTable {
+    width: 100%;
+}
+#mainTable p{
+    font-size:20px;
+    color: grey;
+    align-items:center;
+}
+
+#userImage {
+    width: 500px;
+    margin: 16px;
+    align:center;
+}
+#userImage1 {
+    width: 100%;
+    height:100%;
+    
+}
+#userImage2 {
+    
+     justify-content:center;
+     align:center;
+     align-items:center;
+     width: 200px;
+     height: 200px;
+     margin-left: 150px;
+     border-radius: 100px;
+    
+}
+#userImage6{
+               
+    
+     justify-content:center;
+     width: 200px;
+    height: 200px;
+    
+    border-radius: 0px;
+    
+          }
+.headinfo{
+      width: 100%;
+   align:center;
+}
+.headinfo h1{
+     font-size:75px;
+      font-family:'poppins',sans-serif;
+      color: white;
+
+}
+.bioBox {
+    width: 70%;
+    text-align: left;
+    
+}
+ .bioBox h1{
+    
+    font-size:75px;
+    align:center;
+    
+    
+}
+ .bioBox p{
+    
+    font-size:40px;
+    
+    
+}
+.bioBox1 {
+   
+    width: 70%;
+    text-align: left;
+    
+}
+ .bioBox h1{
+    
+    font-size:55px;
+    align:center;
+    
+    
+}
+ .bioBox p{
+    
+    font-size:30px;
+    
+    
+}
+.btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: small;
+    background-color:white;
+    border-radius: 80px;
+    border:none;
+    font-size:25px;
+}
+#div1{
+       justify-content:center;
+     align:center;
+     align-items:center;
+      background-color:white;
+      width:33.33%;
+      float:left;
+      height:500px;
+      }
+#div2{
+        justify-content:center;
+     align:center;
+     align-items:center;
+        background-color:white;
+        width:33.33%;
+         float:right;
+         height:500px;
+     }
+#div3{
+      justify-content:center;
+     align:center;
+     align-items:center;
+      background-color:white;
+      width:33.33%;
+      margin:0 auto;
+      height:500px;
+        align:center;
+      }
+#div4{
+      background-color:blue;
+      width:25.00%;
+      float:left;height:500px;
+      
+      }
+#div5{
+        background-color:green ;
+        width:25.00%;
+         float:right;
+         height:500px;
+     }
+#div6{
+      background-color:yellow;
+      width:25.00%;
+      float:left;
+      margin:0 auto;
+      height:500px;
+      }
+#div7{
+      background-color:red;
+      width:25.00%;
+      float:left; height:500px;
+     
+      }
+.wrapper{
+          
+          font-family:'raleway';
+          display:flex;
+          justify-content:center;
+          align-items:center;
+          flex-direction:column;
+          text-align:center;
+         align-items:center;
+          background:#fafafa;
+       
+ 
+ 
+        }
+.wrapper h1{
+           font-size:80px;
+           margin:25px;
+           text-align:center;
+           font-weight:500;
+           width:1000px;
+           margin-top:30px;
+
+           }
+.wrapper p{
+           font-size:25px;
+          }
+.content-box{
+                
+               display:flex;
+               justify-content:space-between;
+               flex-wrap:wrap; 
+               width:1000px;
+               margin-top:30px;
+               }
+.card{
+      min-height:250px;
+      width:320px;
+      padding:30px;
+      border-radius:5px;
+      display:flex;
+      justify-content:center;
+       align-items:center;
+      flex-direction:column;
+      background:#fff;
+      margin:10px 4px;
+      box-shadow:0px 15px 30px rgba(0,0,0,0.2);
+ 
+
+
+      }
+.card i{
+        margin:20px;
+        color:orange;
+       }
+.card h2{
+         margin-bottom:12px;
+         
+         text-align:center;
+        }
+.card p{
+        color:#6c757d;
+        text-align:center;
+ 
+       }
+.card:hover{
+
+
+            }
+.card:hover i,
+.card:hover p{
+             color:green;
+             }
+.card:hover h2{
+             font-weight:500;
+             }
+
+
+section{
+        
+         height:130vh;
+         width:100%;
+          background-color:white;
+         display:flex;
+         align-items:center;
+         justify-content:center;
+          border-radius: 0px;
+         flex-direction:column;
+ 
+         }
+.containercontact
+{
+
+   width:50%;
+   display:inline-block;
+   
+   margin:0 auto;
+   padding:20px; 
+   box-shadow:1px 1px 20px color:blue;
+   background-color:red;
+   height:100vh;
+   background:aqua;
+   border-radius: 80px;
+   margin-bottom:20px;
+   
+}
+.form-group
+ {
+  
+   width:100%;
+   margin-top:20px;
+   font-size:20px;
+   align-items:center;
+ }
+.form-group input,
+.form-group textarea
+ { 
+    width:100%;
+    padding:5px;
+    font-size:20px;
+    border:1px
+    margin-top:5px; 
+ }
+  
+  textarea
+  {
+   resize:vertical;
+  }
+  button[type="submit"]
+  {
+   width:100%;
+   border:none;
+   otline:none;
+   padding:5px;
+   font-size:20px;
+   border-radius:8px;
+   font-family:'poppins',sans-serif;
+   color:blue;
+    text-align:center;
+   cursor:pointer;
+   margin-top:3px;
+   
+  }
+ button[type="submit"]:hover
+  {
+    background-color:powderblue;
+  }
+
+
+
+footer{
+       padding:30px 0;
+      background-color:#90D4C5;
+        }
+.footer .social {
+               text-align:center;
+                padding-bottom:25px;
+                color:#fff;
+               } 
+     
+ .footer .social{
+                font-size:24px;
+                
+                color:white;
+               }       
+ .footor h1{
+             color:white;
+             }
+            
+              
+             
+
+
+@media(max -width:991px)
+{
+   
+      #headerTable {
+    
+    width: 100%;
+    height: 100%;
+}
+.logo {
+       margin-left: 16px;
+       font-size :30px;
+       color: white;
+       
+       align:left;
+
+}
+main {
+    
+}
+nav {
+    margin-right: 16px;
+}
+a {
+    margin-right: 16px;
+    text-decoration: none;
+    color: white;
+}
+#mainTable {
+    width: 100%;
+}
+#mainTable p{
+    font-size:20px;
+    color: grey;
+    align-items:center;
+}
+
+#userImage {
+    width: 500px;
+    margin: 16px;
+    align:center;
+}
+#userImage1 {
+    width: 100%;
+    height:100%;
+    
+}
+#userImage2 {
+    
+     justify-content:center;
+     align:center;
+     align-items:center;
+     width: 200px;
+     height: 200px;
+     margin-left: 150px;
+     border-radius: 100px;
+    
+}
+#userImage6{
+               
+    
+     justify-content:center;
+     width: 200px;
+    height: 200px;
+    
+    border-radius: 0px;
+    
+          }
+.headinfo{
+      width: 100%;
+   align:center;
+}
+.headinfo h1{
+     font-size:75px;
+      font-family:'poppins',sans-serif;
+      color: white;
+
+}
+.bioBox {
+    width: 70%;
+    text-align: left;
+    
+}
+ .bioBox h1{
+    
+    font-size:75px;
+    align:center;
+    
+    
+}
+ .bioBox p{
+    
+    font-size:40px;
+    
+    
+}
+.bioBox1 {
+   
+    width: 70%;
+    text-align: left;
+    
+}
+ .bioBox h1{
+    
+    font-size:55px;
+    align:center;
+    
+    
+}
+ .bioBox p{
+    
+    font-size:30px;
+    
+    
+}
+.btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    font-size: small;
+    background-color:white;
+    border-radius: 80px;
+    border:none;
+    font-size:25px;
+}
+#div1{
+       justify-content:center;
+     align:center;
+     align-items:center;
+      background-color:white;
+      width:33.33%;
+      float:left;
+      height:500px;
+      }
+#div2{
+        justify-content:center;
+     align:center;
+     align-items:center;
+        background-color:white;
+        width:33.33%;
+         float:right;
+         height:500px;
+     }
+#div3{
+      justify-content:center;
+     align:center;
+     align-items:center;
+      background-color:white;
+      width:33.33%;
+      margin:0 auto;
+      height:500px;
+        align:center;
+      }
+#div4{
+      background-color:blue;
+      width:25.00%;
+      float:left;height:500px;
+      
+      }
+#div5{
+        background-color:green ;
+        width:25.00%;
+         float:right;
+         height:500px;
+     }
+#div6{
+      background-color:yellow;
+      width:25.00%;
+      float:left;
+      margin:0 auto;
+      height:500px;
+      }
+#div7{
+      background-color:red;
+      width:25.00%;
+      float:left; height:500px;
+     
+      }
+     
+ 
+ .wrapper{
+          
+          padding:25px;
+       
+ 
+ 
+        }
+.wrapper h1{
+           font-size:80px;
+           font-weight:600;
+           }
+.content-box{
+                
+              flex-direction:column;
+              width:100%;
+               }
+.card{
+      min-widt:300px;
+     
+      margin:10px auto;
+      
+ 
+
+
+      }
+}
+
+section{
+        
+         height:130vh;
+         width:100%;
+          background-color:white;
+         display:flex;
+         align-items:center;
+         justify-content:center;
+          border-radius: 0px;
+         flex-direction:column;
+ 
+         }
+.containercontact
+{
+
+   width:50%;
+   display:inline-block;
+   
+   margin:0 auto;
+   padding:20px; 
+   box-shadow:1px 1px 20px color:blue;
+   background-color:red;
+   height:100vh;
+   background:aqua;
+   border-radius: 80px;
+   margin-bottom:20px;
+   
+}
+.form-group
+ {
+  
+   width:100%;
+   margin-top:20px;
+   font-size:20px;
+   align-items:center;
+ }
+.form-group input,
+.form-group textarea
+ { 
+    width:100%;
+    padding:5px;
+    font-size:20px;
+    border:1px
+    margin-top:5px; 
+ }
+  
+  textarea
+  {
+   resize:vertical;
+  }
+  button[type="submit"]
+  {
+   width:100%;
+   border:none;
+   otline:none;
+   padding:5px;
+   font-size:20px;
+   border-radius:8px;
+   font-family:'poppins',sans-serif;
+   color:blue;
+    text-align:center;
+   cursor:pointer;
+   margin-top:3px;
+   
+  }
+ button[type="submit"]:hover
+  {
+    background-color:powderblue;
+  }
+
